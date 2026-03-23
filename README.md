@@ -122,7 +122,7 @@ The rubber hose acts as a thermal buffer (low-pass filter), protecting the senso
 
 Smart-Fan-Guardian/
 ├── README.md # This file
-├── ON-OFF_OTA_CAR.ino # Main Arduino/ESP8266 source code
+├── ECM-FC-Auxiliary-Cooling-Bridge.ino # Main Arduino/ESP8266 source code
 ├── schematics/
 │ ├── circuit_TEST_1.png # Main control circuit (ESP + Relay)
 │ └── thermal_backup_circuit.png # Layer 4: Independent thermal switch
