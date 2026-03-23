@@ -140,7 +140,7 @@ Smart-Fan-Guardian/
 - **Thermal Backup:** See `schematics/circuit_fan_thermo.png`
 
 ### 2. Upload Code
-1. Open `ON-OFF_OTA_CAR.ino` in Arduino IDE
+1. Open `ECM-FC-Auxiliary-Cooling-Bridge.ino` in Arduino IDE
 2. Install required libraries:
    - `ESP8266WiFi`
    - `ESP8266WebServer`
@@ -299,7 +299,7 @@ This document explains the **4 independent protection layers** implemented in th
    - Manual override (Force ON / Force OFF)
    - OTA firmware updates
 
-### Code Logic (from ON-OFF_OTA_CAR.ino)
+### Code Logic (from ECM-FC-Auxiliary-Cooling-Bridge.ino)
 ```cpp
 // Timer cycle logic
 if (isOn && (currentMillis - previousMillis >= onTime)) {
