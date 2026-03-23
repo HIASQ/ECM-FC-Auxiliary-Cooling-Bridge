@@ -120,12 +120,13 @@ The rubber hose acts as a thermal buffer (low-pass filter), protecting the senso
 
 ## 📂 Project Structure
 
-Smart-Fan-Guardian/
+ECM-FC-Auxiliary-Cooling-Bridge/
 ├── README.md # This file
 ├── ECM-FC-Auxiliary-Cooling-Bridge.ino # Main Arduino/ESP8266 source code
 ├── schematics/
-│ ├── circuit_TEST_1.png # Main control circuit (ESP + Relay)
-│ └── thermal_backup_circuit.png # Layer 4: Independent thermal switch
+│ ├── circuit_fan_esp.png # Main control circuit (ESP + Relay)
+│ ├── circuit_fan_thermo.png # Layer 4: Independent thermal switch
+│ └── fan_wire.jpg # Real wiring photo
 ├── docs/
 │ └── safety_layers.md # Detailed explanation of all 4 layers
 └── LICENSE # MIT License
@@ -138,6 +139,7 @@ Smart-Fan-Guardian/
 ### 1. Wiring
 - **Main Circuit:** See `schematics/circuit_fan_esp.png`
 - **Thermal Backup:** See `schematics/circuit_fan_thermo.png`
+- **Real Photo:** See `schematics/fan_wire.jpg`
 
 ### 2. Upload Code
 1. Open `ECM-FC-Auxiliary-Cooling-Bridge.ino` in Arduino IDE
